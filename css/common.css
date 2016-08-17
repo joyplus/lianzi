@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{ font-size:16px; color:#333;}
+body {font-family:'微软雅黑';}
+body,p,ul,li,h1,h2,h3,h4,h5 {  margin:0; padding:0;}
+
+a:link {color: #5B473C; text-decoration: none}
+a:visited {color: #5B473C; text-decoration: none}
+a:active {color: #5B473C; text-decoration: none}
+a:hover {color: #B73C1B; text-decoration: none} 
+
+.logo_content {width:100%; max-width:1200px; margin:auto; text-align:left; padding-top:12px; padding-bottom:12px;}
+
+.youshi_content {width:100%; max-width:1200px; overflow:hidden; padding-bottom:80px; padding-top:80px;margin:auto; }
+.youshi_title {width:329px; height:66px; overflow:hidden; text-align:center; background:url(../img/titlebg.jpg); margin:auto; line-height:60px; font-size:26px;}
+.youshi_ul {width:100%; max-width:1200px; padding:0; margin:0 auto; overflow:hidden; list-style:none;}
+.youshi_ul li { width:49.9%; float:left; overflow:hidden; padding-top:80px; line-height:34px;}
+.youshi_ul img { float:left; margin-right:50px;}
+.youshi_ul span { font-size:22px;}
+
+.youshi_lou {width:100%; height:178px; overflow:hidden; background:url(../img/loubg.jpg);}
+
+.jieshao_bg {width:100%; background:#f1f1f1; overflow:hidden; padding-bottom:80px; padding-top:80px;}
+.jieshao_bg h1 { width:100%; text-align:center; margin:0; padding:0; font-size:20px; font-weight:normal; line-height:140px;}
+.jieshao_bg ul { width:100%; max-width:1200px; padding:0; margin:0 auto; list-style:none; overflow:hidden;}
+.jieshao_bg li { text-align:center; width:33.3%; float:left;}
+.jieshao_title {width:334px; height:67px; overflow:hidden; text-align:center; background:url(../img/jieshaotitle.jpg); margin:auto; line-height:60px; font-size:26px;}
+
+
+.lingyu_content {width:100%; overflow:hidden; padding-bottom:80px; padding-top:80px;margin:auto; background:url(../img/lingyubg.jpg);}
+.lingyu_title {width:332px; height:66px; overflow:hidden; text-align:center; background:url(../img/lingyut.jpg); margin:auto; line-height:60px; font-size:26px;}
+.lingyu_tab {width:100%; max-width:1200px; border:0; margin:auto; line-height:30px; margin-top:80px;}
+.lingyu_tab h2 { font-weight:normal; font-size:23px; color:#f06358;}
+
+
+.about_bg {width:100%; overflow:hidden; background:#91bf07; padding-bottom:80px; padding-top:80px;}
+.about_bg h1 {width:362px; height:78px; overflow:hidden; text-align:center; background:url(../img/aboutt.jpg); margin:0 auto; padding:0; font-weight:normal; line-height:70px; font-size:26px;}
+.about_bg h2 { width:100%; text-align:center; margin:0; padding:0; font-size:20px; font-weight:normal; line-height:140px; color:#fff;}
+.about_pic {width:100%; padding-top:80px; padding-bottom:20px; text-align:center;}
+
+.copyright {width:100%; text-align:center; background:#cecece; padding-bottom:40px; padding-top:40px; color:#959595;}
